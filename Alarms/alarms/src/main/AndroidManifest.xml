@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.dunn.instrument.alarms"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <receiver android:name="com.dunn.instrument.alarms.AlarmReceiver">
+            <intent-filter>
+                <action android:name="com.coocaa.os.process.ALARM_ALERT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.dunn.instrument.alarms.TestAlarmsService"/>
+    </application>
+</manifest>
