@@ -1,0 +1,16 @@
+# Alarms
+/Alarms/.gradle/
+/Alarms/.idea/
+/Alarms/.svn/
+/Alarms/java_pid5600.hprof   
+/Alarms/java_pid8156.hprof 
+/Alarms/*.hprof 
+/Alarms/*.iml
+
+#sample
+/Alarms/sample/build/
+/Alarms/sample/*.iml
+
+#thread
+/Alarms/alarms/build/
+/Alarms/alarms/*.iml
